@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Roboto','san-serif';
+}
+
+/* header */
+
+.container{
+    background-color: rgb(160, 155, 155);
+    width: 100%;
+    float: left;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+
+}
+
+
+
+.logo{
+    font-size: 40px;
+    margin-left: 22px;
+    color: rgb(51, 47, 47);
+    
+}
+
+.navbars{
+    float: right;
+    text-decoration:none;
+    
+    
+    
+    
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 22px;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(51, 47, 47);
+}
+
+a:hover {
+    color: cornsilk;
+    
+    
+}
+
+/* section part */
+
+.mid{
+    margin: 0px;
+    padding: 0px;
+}
+
+.secimage{
+    width: 100%;
+    height: 710px;
+    
+}
+
+.intro {
+    background-color: rgb(219, 193, 193);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.intro h1 {
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(51, 47, 47);
+    
+}
+
+.intro p{
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(51, 47, 47);
+}
+
+/* box section */
+
+article {
+    margin: 0px;
+    display: flex;
+    justify-content: center; 
+}
+
+.box1{
+    background-color: rgb(160, 155, 155);
+    margin: 5px 2.5px 5px 5px;
+}
+
+.box2{
+    background-color: rgb(160, 155, 155);
+    margin: 5px;
+}
+
+.box3{
+    background-color: rgb(160, 155, 155);
+    margin: 5px  5px 5px 2.5px ;
+}
+
+.box1 img {
+    
+    height: 200px;
+    padding: 15px;
+    
+}
+
+.box2 img {
+    
+    height: 200px;
+    padding: 15px;
+    
+}
+
+.box3 img {
+    
+    height: 200px;
+    padding: 15px;
+   
+}
+
+.box1 p{
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 47, 47);
+}
+
+.box2 p{
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 47, 47);
+}
+.box3 p{
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 47, 47);
+}
+
+article .box1 .img{
+    display: flex;
+    justify-content: center;
+}
+
+article .box2 .img{
+    display: flex;
+    justify-content: center;
+}
+article .box3 .img{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
